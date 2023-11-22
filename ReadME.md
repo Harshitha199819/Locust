@@ -1,12 +1,12 @@
-###Locust Load Testing Script
-##Overview
+### Locust Load Testing Script
+## Overview
 This script provides a user-friendly interface for configuring and running Locust tests with various load patterns. Users can simulate different scenarios to test the performance of their systems by specifying the number of users, run time, spawn rate, load type, and host.
 
-##Usage
+## Usage
 Clone the Repository
 git clone https://github.com/Harshitha199819/Locust/
 
-##Run the Script:
+## Run the Script:
 python locust-all.py
 Enter User Inputs:
 Example:
@@ -17,7 +17,7 @@ Please enter the spawn rate: 2
 Please enter the type of load (1-constant, 2-step-up, 3-ramp, 4-spike, 5-randomize): 1
 Please enter the host (in the format http(s)://<IP>:<port>): http://localhost:8000
 
-##Review Results:
+## Review Results:
 
 The script dynamically constructs and executes Locust commands based on the specified load type. Locust test results will be displayed, and users can monitor the progress in the Locust web interface.
 Load Types
