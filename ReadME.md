@@ -7,15 +7,14 @@ Clone the Repository
 git clone https://github.com/Harshitha199819/Locust/
 
 ## Run the Script:
-python locust-all.py
-Enter User Inputs:
-Example:
-python3 locust-all.py 
-Please enter the number of users: 50
-Please enter the run time in seconds: 300
-Please enter the spawn rate: 2
-Please enter the type of load (1-constant, 2-step-up, 3-ramp, 4-spike, 5-randomize): 1
-Please enter the host (in the format http(s)://<IP>:<port>): http://localhost:8000
+python locust-all.py <br>
+Example:<br>
+python3 locust-all.py <br>
+Please enter the number of users: 50 <br>
+Please enter the run time in seconds: 300 <br>
+Please enter the spawn rate: 2 <br>
+Please enter the type of load (1-constant, 2-step-up, 3-ramp, 4-spike, 5-randomize): 1 <br>
+Please enter the host (in the format http(s)://<IP>:<port>): http://localhost:8000 <br>
 
 ## Review Results:
 
